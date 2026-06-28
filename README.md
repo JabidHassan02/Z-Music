@@ -1,8 +1,10 @@
-# music_app
+# Z-Music is Simple music app in which you can listen To your local musics also download any songs thats available on Yt
 
-A new Flutter project.
 
-## Getting Started
+
+
+
+## Getting Started ?
 
 This project is a starting point for a Flutter application.
 
