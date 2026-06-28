@@ -1,0 +1,53 @@
+name: music_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  just_audio: ^0.9.36
+  audio_session: ^0.1.25
+  just_audio_background: ^0.0.1-beta.17
+  on_audio_query: ^2.9.0
+  permission_handler: ^11.3.1
+  marquee: ^2.3.0
+  sleek_circular_slider: ^2.1.0
+  shared_preferences: ^2.5.3
+  youtube_explode_dart: ^2.5.1
+  cached_network_image: ^3.4.1
+  flutter_cache_manager: ^3.4.1
+  flutter_secure_storage: ^9.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/main.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/main.png"
+
+flutter_native_splash:
+  color: "#121212"
+  image: "assets/logo.png"
+  android_12:
+    image: "assets/logo.png"
+    icon_background_color: "#121212"
+    color: "#121212"

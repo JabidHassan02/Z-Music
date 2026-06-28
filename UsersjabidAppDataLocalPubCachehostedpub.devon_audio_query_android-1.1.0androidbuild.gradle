@@ -1,0 +1,15 @@
+group 'com.lucasjosino.on_audio_query'
+version '1.0'
+
+buildscript {
+    // ...
+}
+
+android {
+    namespace 'com.lucasjosino.on_audio_query' // <-- ADD THIS LINE HERE
+    compileSdkVersion 33
+
+    defaultConfig {
+        minSdkVersion 16
+    }
+}
